@@ -57,7 +57,7 @@ header nav ul li a {
 /* styling footer */
 footer {
   background: #393b3a;
-  padding: 40px 35px;
+  padding: 35px 35px;
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -65,7 +65,7 @@ footer {
 }
 
 footer h2 {
-  color: #fff;
+  color: #f7f7f7;
   font-size: 30px;
   margin: 0;
 }
@@ -84,6 +84,15 @@ section {
   padding: 60px;
 }
 
+.austex {
+  width: auto;
+  height: auto;
+  max-width: 80%;
+  max-height: 80%;
+  opacity: 0.25;
+
+}
+
 /* styling hero */
 .hero {
   background-image: url('../assets/images/austin.jpg');
@@ -97,7 +106,7 @@ section {
 
 .hero-cta {
   width: 35%;
-  text-align: right;
+  text-align: center;
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
@@ -357,25 +366,6 @@ section {
     flex: 100%;  
   }
   
-  .service-grid-container {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .service-grid-item.basic {
-    grid-column: 1;
-  }
-
-  .service-grid-item.both {
-    grid-column: 1 / -1;
-  }
-
-  .service-grid-item.cancel {
-    transform: none;
-    writing-mode: unset;
-    grid-column: 1 / -1;
-    grid-row: -1;
-  }
-}
 
 /* media queries styling for phones and smaller */
 @media screen and (max-width: 575px) {
