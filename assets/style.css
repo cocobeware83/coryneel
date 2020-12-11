@@ -53,32 +53,6 @@ header nav ul li a {
 }
 
 
-
-/* styling footer */
-footer {
-  background: #393b3a;
-  padding: 35px 35px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  width: 100%;
-}
-
-footer h2 {
-  color: #f7f7f7;
-  font-size: 30px;
-  margin: 0;
-}
-
-footer div {
-  line-height: 1.5;
-  text-align: right;
-}
-
-footer a {
-  color: #024e76;
-}
-
 /* section tags style */
 section {
   padding: 60px;
@@ -125,7 +99,7 @@ section {
   background-size: cover;
   background-position: center;
   border: 3px solid #3e423f;
-  padding: 20px;
+  padding: 230px;
   width: 40%;
   heighT: 40%;
 
@@ -234,6 +208,7 @@ section {
 }
 
 /* contact me styling */
+
 .contact {
   background: #9da19e;
 }
@@ -292,6 +267,19 @@ section {
   display: flex;
 }
 
+/* styling footer */
+footer {
+  background: #393b3a;
+  padding: 35px  35px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  float: left;
+}
+.mbc {
+  color: #fff;
+}
+
 /* media queries styling */
 @media screen and (max-width: 980px) {
   header {
@@ -314,9 +302,10 @@ section {
     font-size: 20px;
   }
 
-  footer h2, footer div {
+  footer h2, {
     text-align: center;
     width: 100%;
+    color: #fff;
   }
 
   .hero-cta, .hero-form {
