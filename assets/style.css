@@ -106,7 +106,7 @@ section {
 
 .hero-cta {
   width: 35%;
-  text-align: center;
+  text-align: left;
   margin: 3.5%;
   color: #fff;
   font-size: 18px;
@@ -165,10 +165,10 @@ section {
 /* styling section-title */
 .section-title {
   font-size: 48px;
-  border-bottom: 3px solid;
+  border: none;
   color:#3e423f;
   padding-bottom: 20px;
-  text-align: center;
+  text-align: left;
   margin: 0 auto 35px auto;
   width: 50%;
 }
@@ -181,15 +181,17 @@ section {
   border-color: #3e423f;
 }
 
-/* what we do styling */
-
+/* about me styling */
+.intro {
+  background-color: #9da19e;
+}
 .intro p {
-  line-height: 1.7;
+  text-align: left;
+  line-height: 1.5;
   color: #3e423f;
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
-  text-align: center;
 }
 
 /* my work styling */
@@ -233,7 +235,7 @@ section {
 
 /* contact me styling */
 .contact {
-  background: #cbd1cc;
+  background: #9da19e;
 }
 
 .contact h2 {
