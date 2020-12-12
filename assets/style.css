@@ -94,7 +94,7 @@ section {
   border: 3px solid #3e423f;
   padding: 230px;
   width: 30%;
-  heighT: 30%;
+  height: 30%;
 
 }
 
@@ -162,12 +162,45 @@ section {
 }
 
 /* my work styling */
+
+
+
 .projects {
   width: 100%;
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
+}
+
+.rbud {
+  background-image: url('../assets/images/runbuddy.png');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #3e423f;
+  padding: 230px;
+  width: 30%;
+  heighT: 30%;
+}
+
+.horiseon {
+  background-image: url('../assets/images/horiseon.png');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #3e423f;
+  padding: 230px;
+  width: 30%;
+  heighT: 30%;
+}
+
+.oddduck {
+  background-image: url('../assets/images/oddduck.jpg');
+  background-size: cover;
+  background-position: center;
+  border: 3px solid #3e423f;
+  padding: 230px;
+  width: 30%;
+  heighT: 30%;
 }
 
 .project {
