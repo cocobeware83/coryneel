@@ -14,7 +14,7 @@ body {
 
 header {
   padding: 20px 35px;
-  background-color: #393b3a;
+  background-image: url('../assets/images/darkgrey.jpg');
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -99,7 +99,7 @@ section {
 .section-title {
   font-size: 48px;
   border: none;
-  color:#3e423f;
+  color:#fff;
   padding-bottom: 20px;
   text-align: left;
   margin: 0 auto 35px auto;
@@ -116,19 +116,27 @@ section {
 
 /* about me styling */
 .intro {
-  background-image: url('../assets/images/greytexture.jpg');
+  background-image: url('../assets/images/darkgrey.jpg');
 }
 .intro p {
   text-align: left;
   line-height: 1.5;
-  color: #3e423f;
+  color: #fff;
   width: 80%;
   margin: 0 auto;
   font-size: 20px;
 }
 
 /* my work styling */
-
+.section-title2 {
+  font-size: 48px;
+  border: none;
+  color:#3e423f;
+  padding-bottom: 20px;
+  text-align: left;
+  margin: 0 auto 35px auto;
+  width: 50%;
+}
 .projects {
   width: 100%;
   margin: 0 auto;
@@ -170,12 +178,11 @@ section {
 /* contact me styling */
 
 .contact {
-  background-image: url('../assets/images/greytexture.jpg');
-  height: 
+  background-image: url('../assets/images/darkgrey.jpg');
 }
 
 .contact h2 {
-  color: #3e423f;
+  color: #fff;
 }
 
 .contact-info {
@@ -189,40 +196,25 @@ section {
   margin: 15px;
 }
 
-.contact-info iframe {
-  height: 300px;
-}
-
-.contact-info div {
-  color: #3e423f;
-}
-
-.contact-info h3 {
-  color:#3e423f;
-  font-size: 32px;
-}
-
-.contact-info p {
+.contact-info p1, p2, p3, p4 {
   margin: 20px 0;
   line-height: 1.5;
-  font-size: 26px;
-  font-style: normal;
+  font-size: 36px;
+  font-style: bold;
   text-align: center;
+
 }
 
 .contact-info a {
-  color: #3e423f;
+  color: #fff;
 }
+
+p1  { left: 0%; position: relative; }
+p2 { left: 2%; position: relative; }
+p3 { left: 4%; position: relative; }
+p4  { left: %; position: relative; }
 
 /* general styling */
-.text-left {
-  text-align: left;
-}
-
-.text-right {
-  text-align: right;
-}
-
 .flex-row {
   display: flex;
 }
@@ -261,41 +253,14 @@ section {
     width: 80%;
   }
   
-  .trainer {
-    flex: 0 70%;
-  }
-  
   .contact-info iframe{
     flex: 1 100%;
   }
-}
 
 /* media queries styling for tablets and smaller */
 @media screen and (max-width: 768px) {
   section {
     padding: 30px 15px;
-  }
-
-  .step h3 {
-    flex: 1 100%;
-    text-align: center;
-  }
-
-  .step-info {
-    flex: 2 100%;
-    text-align: center;
-    justify-content: center;
-  }
-
-  .step-img {
-    flex: 0 32%;
-    margin-right: 0;
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .step-text {
-    flex: 100%;  
   }
   
 
