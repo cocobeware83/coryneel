@@ -1,10 +1,10 @@
 # Cory Neel's Professional Portfolio
 
-Thanks for checking out my portfolio!  I kknow it's hard to get to know someone simply by viewing an online profile, but through this page, I hope to lend a small amount of insight as to who I am. 
+Thanks for checking out my portfolio!  I know it's hard to get to know someone simply by viewing an online profile, but through this page, I hope to lend a small amount of insight as to who I am. 
 
 ## Sections
 1. Navigation Links
-2. A little About Me
+2. A Little About Me
 3. Some Of My Work
 4. Contact Me
 5. Link To Profile
@@ -22,11 +22,11 @@ This is just a brief testimony, stating my experience, skills learned, and my as
 
 ### Some Of My Work
 ***
-This section exhibits my professional accomplishments so far.
+This section exhibits my professional accomplishments so far. **MORE TO COME!!**
 
 ### Contact Me
 ***
-This section list all if my social media accounts and email in case you wish to contact me.
+This section lists all of my social media accounts and email in case you wish to contact me.
 
 ### Link To Profile 
 ***
@@ -44,17 +44,11 @@ https://cocobeware83.github.io/coryneel/
 
 ### Thanks
 ***
-As always, thanks to all the contributors 
+As always, thanks to all the contributors to Stack Overflow, and www.w3schools.com
 
-to Stack Overflow, and www.w3schools.com
+for all the guidance and advice I received during this project. Your shared
 
-for all the guidance and advice I received 
+experiences were vital to my success.  I couldn't have accomplished my goal without 
 
-during this project. Your shared
-
-experiences were vital to my success.  
-
-I couldn't have doen this without the 
-
-peer suuport of our community.
+the peer suuport of our community.
 
