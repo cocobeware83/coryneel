@@ -10,7 +10,7 @@ body {
 }
 
 
-/* styling header and nav bars */
+/* styling header and navigation */
 
 header {
   padding: 20px 35px;
@@ -53,11 +53,11 @@ header nav ul li a {
 }
 
 
-/* section tags style */
+/* padding style for the sections */
+
 section {
   padding: 60px;
 }
-
 
 
 /* styling hero */
@@ -73,7 +73,8 @@ section {
 
 .hero-cta {
   width: 35%;
-  text-align: left;
+  text-align: right;
+  font-style: italic;
   margin: 3.5%;
   line-height: 1.2;
 }
@@ -95,7 +96,7 @@ section {
   height: 30%;
 
 }
-/* styling section-title */
+/* about me styling */
 .section-title {
   font-size: 48px;
   border: none;
@@ -114,7 +115,6 @@ section {
   border-color: #3e423f;
 }
 
-/* about me styling */
 .intro {
   background-image: url('../assets/images/darkgrey.jpg');
 }
@@ -127,7 +127,7 @@ section {
   font-size: 20px;
 }
 
-/* my work styling */
+/* my projects styling */
 .section-title2 {
   font-size: 48px;
   border: none;
@@ -142,19 +142,29 @@ section {
   margin: 0 auto;
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
-.project {
+.projectbig {
   margin: 20px;
-  flex: 1;
+  flex: 0 0 100%;
   background: #818281;
   color: #3e423f;
 }
 
-.project img {
+.projectsmall {
+  margin: 20px;
+  flex: 0 0 45%;
+  background: #818281;
+  color: #3e423f;
+}
+
+.projectsmall img {
   width: 100%;
 }
+ .projectbig img {
+   width:100%
+ }
 
 .project-bio {
   padding: 25px;
@@ -212,7 +222,7 @@ section {
 p1  { left: 0%; position: relative; }
 p2 { left: 2%; position: relative; }
 p3 { left: 4%; position: relative; }
-p4  { left: %; position: relative; }
+p4  { left: 6%; position: relative; }
 
 /* general styling */
 .flex-row {
@@ -282,5 +292,3 @@ p4  { left: %; position: relative; }
   .contact-info {
     text-align: right;
   }
-
-
