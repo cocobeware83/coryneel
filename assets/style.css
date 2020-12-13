@@ -71,21 +71,6 @@ section {
   align-items: flex-start;
 }
 
-.hero-cta {
-  width: 35%;
-  text-align: right;
-  font-style: italic;
-  margin: 3.5%;
-  line-height: 1.2;
-}
-
-.hero-cta h2 {
-  font-style: bold;
-  font-size: 45px;
-  color:#3e423f;
-  text-shadow: 0 0 10px rgba(0,0,0,0.5);
-}
-
 .hero-pic {
   background-image: url('../assets/images/coryneel.jpg');
   background-size: cover;
@@ -96,6 +81,23 @@ section {
   height: 30%;
 
 }
+
+.hero-cta {
+  width: 35%;
+  text-align: right;
+  font-style: italic;
+  margin: 3.5%;
+  line-height: 1.5;
+}
+
+.hero-cta h2 {
+  font-style: bold;
+  font-size: 45px;
+  color:#3e423f;
+  text-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+
 /* about me styling */
 .section-title {
   font-size: 48px;
@@ -147,14 +149,14 @@ section {
 
 .projectbig {
   margin: 20px;
-  flex: 0 0 100%;
+  flex: 0 0 80%;
   background: #818281;
   color: #3e423f;
 }
 
 .projectsmall {
   margin: 20px;
-  flex: 0 0 45%;
+  flex: 0 0 40%;
   background: #818281;
   color: #3e423f;
 }
