@@ -9,8 +9,13 @@ body {
   font-family: Helvetica, Arial, sans-serif;
 }
 
+/* padding for all the sections */
 
-/* styling header and navigation */
+section {
+  padding: 60px;
+}
+
+/* styling for the header and navigation links */
 
 header {
   padding: 20px 35px;
@@ -52,15 +57,8 @@ header nav ul li a {
   text-shadow: 0 0 10px rgba(0,0,0,0.5);
 }
 
+/* styling for hero/jumbotron section */
 
-/* padding style for the sections */
-
-section {
-  padding: 60px;
-}
-
-
-/* styling hero */
 .hero {
   background-image: url('../assets/images/austin.jpg');
   background-size: cover;
@@ -79,10 +77,9 @@ section {
   padding: 230px;
   width: 30%;
   height: 30%;
-
 }
 
-.hero-cta {
+.hero-spiel {
   width: 35%;
   text-align: right;
   font-style: italic;
@@ -90,7 +87,7 @@ section {
   line-height: 1.5;
 }
 
-.hero-cta h2 {
+.hero-spiel h2 {
   font-style: bold;
   font-size: 45px;
   color:#3e423f;
@@ -98,11 +95,12 @@ section {
 }
 
 
-/* about me styling */
+/* a little about me section styling */
+
 .section-title {
   font-size: 48px;
   border: none;
-  color:#fff;
+  color:#e1e8eb;
   padding-bottom: 20px;
   text-align: left;
   margin: 0 auto 35px auto;
@@ -120,6 +118,7 @@ section {
 .intro {
   background-image: url('../assets/images/darkgrey.jpg');
 }
+
 .intro p {
   text-align: left;
   line-height: 1.5;
@@ -129,7 +128,8 @@ section {
   font-size: 20px;
 }
 
-/* my projects styling */
+/* some of my work section styling */
+
 .section-title2 {
   font-size: 48px;
   border: none;
@@ -139,6 +139,7 @@ section {
   margin: 0 auto 35px auto;
   width: 50%;
 }
+
 .projects {
   width: 100%;
   margin: 0 auto;
@@ -149,21 +150,22 @@ section {
 
 .projectbig {
   margin: 20px;
-  flex: 0 0 80%;
-  background: #818281;
+  flex: 0 0 88%;
+  background: #c0c3c4;
   color: #3e423f;
 }
 
 .projectsmall {
   margin: 20px;
   flex: 0 0 40%;
-  background: #818281;
+  background: #c0c3c4;
   color: #3e423f;
 }
 
 .projectsmall img {
   width: 100%;
 }
+
  .projectbig img {
    width:100%
  }
@@ -187,7 +189,11 @@ section {
   font-size: 17px;
 }
 
-/* contact me styling */
+.flex-row {
+  display: flex;
+}
+
+/* contact me section styling */
 
 .contact {
   background-image: url('../assets/images/darkgrey.jpg');
@@ -214,7 +220,6 @@ section {
   font-size: 36px;
   font-style: bold;
   text-align: center;
-
 }
 
 .contact-info a {
@@ -226,12 +231,8 @@ p2 { left: 2%; position: relative; }
 p3 { left: 4%; position: relative; }
 p4  { left: 6%; position: relative; }
 
-/* general styling */
-.flex-row {
-  display: flex;
-}
-
 /* media queries styling */
+
 @media screen and (max-width: 980px) {
   header {
     padding-bottom: 0;
@@ -270,6 +271,7 @@ p4  { left: 6%; position: relative; }
   }
 
 /* media queries styling for tablets and smaller */
+
 @media screen and (max-width: 768px) {
   section {
     padding: 30px 15px;
@@ -277,6 +279,7 @@ p4  { left: 6%; position: relative; }
   
 
 /* media queries styling for phones and smaller */
+
 @media screen and (max-width: 575px) {
 
   .section-title {
