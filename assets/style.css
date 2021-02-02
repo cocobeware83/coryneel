@@ -227,6 +227,7 @@ p2 { left: 2%; position: relative; }
 p3 { left: 4%; position: relative; }
 p4  { left: 6%; position: relative; }
 
+
 /* media queries styling */
 
 @media screen and (max-width: 980px) {

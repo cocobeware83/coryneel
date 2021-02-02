@@ -2,6 +2,8 @@
 
 Thanks for checking out my portfolio!  I know it's hard to get to know someone simply by viewing an online profile, but through this page, I hope to lend a small amount of insight as to who I am. 
 
+![Cory Neel](https://user-images.githubusercontent.com/72768374/106669689-a5110d00-6571-11eb-87f1-07c008df7ef5.gif)
+
 ## Sections
 1. Navigation Links
 2. A Little About Me
@@ -30,7 +32,7 @@ This section lists all of my social media accounts and email in case you wish to
 
 ### Link To Profile 
 ***
-https://cocobeware83.github.io/coryneel/
+[Check out My Portfolio](https://cocobeware83.github.io/coryneel/)
 
 ### Technology Used
 ***
